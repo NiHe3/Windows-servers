@@ -2,6 +2,12 @@
 
 # Directory
 - [Lab 1 – Lab Installin](#lab-1)
+- [Lab 2 – Lab Configuration](#lab-2)
+- [Lab 3 – Lab ](#lab-3)
+- [Lab 4 – Lab ](#lab-4)
+- [Lab 5 – Lab ](#lab-5)
+- [Lab 6 – Lab ](#lab-6)
+- [Lab 7 – Lab ](#lab-7)
 
 # Lab 1 - Lab Installing
 
