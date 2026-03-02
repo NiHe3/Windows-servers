@@ -41,7 +41,7 @@ screenshot of working server 2 virtual machine
 - **Network:** NAT Network
 
 screenshot of working Client vm
-[Client VM working](Images/Mod1/Client-working.png)
+![Client VM working](Images/Mod1/Client-working.png)
 # Lab 2 - Lab configuration
 
 # Lab 3.1
