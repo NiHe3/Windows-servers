@@ -1,7 +1,7 @@
 # Windows-servers
 
 # Directory
-- [Lab 1 – Installing Setup](#lab-1)
+- [Lab 1 – Lab Installin](#lab-1)
 
 # Lab 1 - Lab Installing
 
