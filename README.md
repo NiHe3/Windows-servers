@@ -10,12 +10,12 @@ Also include a screenshot of the hypervisor + virtual machines.
 ## Hypervisor
 Virtualbox
 
-![VirtualBox with two virtual machines](images/virtualbox-overview.png)
+![VirtualBox with two virtual machines](Images/Mod1/virtualbox.png)
 
 ## NAT network 
 Nat network is used for the virtual machines, default settings make the virtual machines have NAT, we change this to NAT network and use Windowservers config
 
-![NAT Network Configuration](images/nat-network.png)
+![NAT Network Configuration](Images/Mod1/network.png)
 
 ### Server 1
 - **Name:** Server1
@@ -23,7 +23,7 @@ Nat network is used for the virtual machines, default settings make the virtual 
 - **ISO Used:** `en-us_windows_server_2022_updated_dec_2025_x64_dvd_84450f64`
 - **Network:** NAT Network
 screenshot of working server 1 virtual machine
-![Server1 working](images/server1-working.png)
+![Server1 working](Images/Mod1/server1-working.png)
 
 ### Server 2
 - **Name:** Server2
@@ -31,7 +31,7 @@ screenshot of working server 1 virtual machine
 - **ISO Used:** `en-us_windows_server_2022_updated_dec_2025_x64_dvd_84450f64`
 - **Network:** NAT Network
 screenshot of working server 2 virtual machine
-![Server2 working](images/server2-working.png)
+![Server2 working](Images/Mod1/datacenter-working.png)
 
 ### Client Machine
 - **Name:** Client1
@@ -40,7 +40,7 @@ screenshot of working server 2 virtual machine
 - **Network:** NAT Network
 
 screenshot of working Client vm
-[Client VM working](images/client-working.png)
+[Client VM working](images/Client-working.png)
 # Lab 2 - Lab configuration
 
 # Lab 3.1
