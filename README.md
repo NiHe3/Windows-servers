@@ -209,7 +209,20 @@ Useful link https://gpsearch.azurewebsites.net/
         Add a static DNS host A record for the second Windows Server (the another virtual machine create in the first lab)
         Add a CNAME record of your choosing that points to the record create in previous step
       Return screenshots that show your configuration. One screenshot could show the DHCP server configuration along with   the scope you configured and another screenshot could show the DNS zone and the modifications you made.
+## DHCP 
+Heres the scope
+![DHCP-scale](Images/Mod4/DHCP-Scope.png)
 
+Heres the DHCP scope options
+![DHCP-options](Images/Mod4/DHCP-Scope-Options.png)
+
+## DNS
+DNS static host
+![Dns-static](Images/Mod4/DNS-Static-Host.png)
+
+DNS cname
+Cname.png
+![Cname](Images/Mod4/Cname.png)
 # Lab 4.2 - Domain Join + Group Policy testing
 ## Tasks:
     Windows 10 or 11 virtual machine required
