@@ -5,6 +5,9 @@
 - [Lab 2 – Lab Configuration](#lab-2)
 - [Lab 3.1 – Active Directory](#lab-31)
 - [Lab 3.2 – Group Policy](#lab-32)
+- [Lab 4.1 - Network](#lab-41)
+- [Lab 4.2 - Domain Join + Group Policy testing](#lab-42)
+
 
 ---
 
@@ -156,3 +159,25 @@ Useful link https://gpsearch.azurewebsites.net/
 ## Chrome ADMX Added  
 ![Chrome ADMX](Images/Mod4/Server01-GP-Google-Shot4.png)
 
+# Lab 4.1 - Network
+## Tasks:
+    Install DHCP Server role on Windows Server virtual machine installed in first lab
+    Configure a DHCP scope for your network on the DHCP Server that has:
+        50 available addresses
+        Contains gateway, DNS Servers and DNS suffix configuration as options
+    Configure the DNS Server:
+        Add a static DNS host A record for the second Windows Server (the another virtual machine create in the first lab)
+        Add a CNAME record of your choosing that points to the record create in previous step
+      Return screenshots that show your configuration. One screenshot could show the DHCP server configuration along with   the scope you configured and another screenshot could show the DNS zone and the modifications you made.
+
+# Lab 4.2 - Domain Join + Group Policy testing
+## Tasks:
+    Windows 10 or 11 virtual machine required
+    After installation change the computer name, verify the IP configuration (from your DHCP server configured in Lab 4,   Part 1), and join the workstation to your domain
+    Verify that the Group Policy settings done in Lab 3, Part 2 works in the client machine
+    Join the second server to the domain as well
+    Return screenshots that show your configuration. Screenshots:
+    Windows client OS virtual machine IP configuration (from GUI or CLI)
+    DHCP Server address leases that show the lease for Windows client virtual machine (from DHCP manager)
+    Windows client OS and Windows Server OS computer accounts in domain (from any AD DS management tool)
+    Group Policy effect visible (from the OS or from tool like gpresult /r)
