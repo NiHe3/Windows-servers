@@ -3,7 +3,7 @@
 # Directory
 - [Lab 1 – Lab Installin](#lab-1)
 - [Lab 2 – Lab Configuration](#lab-2)
-- [Lab 3 – Lab ](#lab-3)
+- [Lab 3 – Lab Active Directory](#lab-3)
 - [Lab 4 – Lab ](#lab-4)
 - [Lab 5 – Lab ](#lab-5)
 - [Lab 6 – Lab ](#lab-6)
@@ -50,9 +50,10 @@ screenshot of working Client vm
 ![Client VM working](Images/Mod1/Client-working.png)
 # Lab 2 - Lab configuration
 
-# Lab 3.1
+# Lab 3.1 - Active Directory
 
-# Lab 3.2
+# Lab 3.2 - Group Policy
+https://gpsearch.azurewebsites.net/
 
 # Lab 4.1
 
