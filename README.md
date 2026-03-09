@@ -101,8 +101,11 @@ Enter-PSSession -ComputerName Server02
 Install-WindowsFeature -Name Web-Server
 ```
 
-### Verification  
-(Default IIS page loads — screenshot if available.)
+### Screenshots
+![IIS](Images/Mod2/Servers-Powershell-Webserver.png)
+
+Webserver working
+![Serverup](Images/Mod2/Webserver-working.png)
 
 ---
 
