@@ -37,7 +37,7 @@ NAT network is used for the virtual machines. Default settings give NAT, but we 
 
 ## Server 2
 - **Name:** Server2  
-- **Operating System:** Windows Server 2022 Datacenter (Core)  
+- **Operating System:** Windows Server 2022 Datacenter  
 - **ISO Used:** `en-us_windows_server_2022_updated_dec_2025_x64_dvd_84450f64`  
 - **Network:** NAT Network  
 
@@ -70,7 +70,7 @@ Perform post‑installation configuration for the Windows Servers installed in t
 
 ---
 
-## Server02 – Post Installation (Core)
+## Server02 – Post Installation 
 
 ### Computer Name  
 ![Server02 Name](Images/Mod2/Server02-Name.png)
@@ -91,7 +91,7 @@ Perform post‑installation configuration for the Windows Servers installed in t
 
 ---
 
-## Installing Web Server Role on Server02 (Core)
+## Installing Web Server Role on Server02 
 
 ### PowerShell Remoting  
 From Server01:
