@@ -76,7 +76,7 @@ Perform post‑installation configuration for the Windows Servers installed in t
 ![Server02 Name](Images/Mod2/Server02-Name.png)
 
 ### Time Zone  
-![Server02 Time](Images/Mod2/Server02-Time.png)
+![Server02 Time](Images/Mod2/Server02-TIme.png)
 
 ### IPv4 Configuration  
 ![Server02 IPv4](Images/Mod2/Server02-IPv4.png)
@@ -153,6 +153,3 @@ Two GPOs created with different taskbar settings and linked at different OU leve
 ## Chrome ADMX Added  
 ![Chrome ADMX](Images/Mod4/Server01-GP-Google-Shot4.png)
 
----
-
-# End of Documentation
