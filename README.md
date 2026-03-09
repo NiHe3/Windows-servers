@@ -13,8 +13,16 @@
 
 # Lab 1 – Lab Installing
 
-Return documentation with the virtual machine virtual hardware specifications, names, and the operating system installed.  
-Also include a screenshot of the hypervisor + virtual machines.
+## Tasks:
+
+    Choose a suitable hypervisor for your own machine and install it (if you do not have one already)
+    Configure the networking in the hypervisor so that the virtual machines which you will create can communicate via network
+    Create and install two Windows Server 2022 virtual machines
+        Datacenter (Desktop Experience)
+        Datacenter ie. Core version
+    Create and install one Windows 11 (or 10) virtual machine
+    After installation, verify that all virtual machines start
+
 
 ## Hypervisor  
 VirtualBox
@@ -60,7 +68,13 @@ NAT network is used for the virtual machines. Default settings give NAT, but we 
 
 # Lab 2 – Lab Configuration
 
-Perform post‑installation configuration for the Windows Servers installed in the previous lab.
+## Tasks:
+
+    Perform post installation configuration for the Windows Servers installed in the previous lab, at least:
+        Computer name
+        Network configuration (IP address, DNS settings)
+        Time Zone
+    Install a web server role to the Windows Server Core installation using PowerShell remotingReturn the Windows Server configurations (for example screenshot from the Server Manager showing name, IP configuration or a sconfig tool output showing similar information).Also document the PowerShell command you used to install the web server and verify that the web server has been installed correctly (web page opened from the server).
 
 ## Server01 – Post Installation
 
@@ -113,8 +127,19 @@ Webserver working
 ---
 
 # Lab 3.1 – Active Directory
+## Tasks:
+    Create a domain controller in a new AD environment
+        You can use either of the Windows Server virtual machines installed in the previous lab (recommended: Desktop Experiance)
+        Name the domain as you wish
+    Create OU structure to the new domain which contains OUs:
+        Helsinki
+            Users
+            Desktops
+        Tampere
+            Users
+            Desktops
+    Create example user in both Users OUs (so one user in Helsinki and one in Tampere).Return a screenshot which shows your Domain OUs and their contents from one of the Active Directory management tools.
 
-Create a domain controller, OU structure, and example users.
 
 ## Domain Installation  
 ![AD Install](Images/Mod2/Server01-AD-Install.png)
@@ -135,6 +160,21 @@ Create a domain controller, OU structure, and example users.
 ---
 
 # Lab 3.2 – Group Policy
+## Tasks:
+    1. GPO creation and linking
+        Create two GPOs
+            Both contain same setting with different values (for example one with taskbar locked and another one with taskbar not locked).
+        Link the GPOs      Link them in a way that both affect the same user (or computer), but one is linked higher in the OU hierarchy than the other.
+        Verify the processing order of the GPOs (GPO linked closer to the target “wins”) using tools in the Group Policy Management Console.
+    2. Create a Central Store
+        Create a Central Store for the Administrative Templates
+        Add the ADMX files from one machine to the Central Store
+        Add the ADMX files for Google Chrome to the Central Store
+    Return screenshots and/or documentation that verifies your work. Example screenshots:
+        GPMC with the GPOs and OU hierarchy visible
+        GP Editor with the modified setting(s) visible
+        Central Store folder open (location visible)
+        Google Chrome settings showing in GP Editor
 
 ## GPO Creation and Linking  
 Two GPOs created with different taskbar settings and linked at different OU levels.
