@@ -234,3 +234,20 @@ Cname.png
     DHCP Server address leases that show the lease for Windows client virtual machine (from DHCP manager)
     Windows client OS and Windows Server OS computer accounts in domain (from any AD DS management tool)
     Group Policy effect visible (from the OS or from tool like gpresult /r)
+Windows Client OS IP config
+Ipconfig
+![Client OS IP config](Images/Mod4.1/Client01-DHCP-IPconfig.png)
+
+IPconfig all
+![Client OS IP config](Images/Mod4.1/Client01-DHCP-IPconfig-all.png)
+
+DHCP Server address leases that show the lease for Windows client virtual machine (from DHCP manager)
+ ![DHCP Server address](Images/Mod4.1/Server01-DHCP-Lease.png)
+
+Windows client OS and Windows Server OS computer accounts in domain (from any AD DS management tool)
+ Server
+ ![Domain-Server](Images/Mod4.1/Server01-in-Domain.png)
+ Client
+  ![Domain-Client](Images/Mod4.1/Client01-Domain-Setting-About.png)
+Group Policy effect visible (from the OS or from tool like gpresult /r)
+  ![Group Policy](Images/Mod4.1/Client01-Policy-effect.png)
