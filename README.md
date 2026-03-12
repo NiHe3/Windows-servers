@@ -247,7 +247,9 @@ DHCP Server address leases that show the lease for Windows client virtual machin
 Windows client OS and Windows Server OS computer accounts in domain (from any AD DS management tool)
  Server
  ![Domain-Server](Images/Mod4.1/Server01-in-Domain.png)
+ 
  Client
   ![Domain-Client](Images/Mod4.1/Client01-Domain-Setting-About.png)
+  
 Group Policy effect visible (from the OS or from tool like gpresult /r)
   ![Group Policy](Images/Mod4.1/Client01-Policy-effect.png)
